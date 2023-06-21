@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Ruslan+Display&display=swap');
+
+body {
+    font-family: 'Ruslan Display', cursive;
+    background-color: #1B1212;
+    color: white;
+    font-size: 20px;
+}
+
+h1 {
+    color: #fff;
+    text-align: center;
+}
+
+.box {
+    height: 100px;
+    width: 100px;
+    border: 2px solid #fff;
+    text-align: center;
+    font-size: 32px;
+    color: #Fff;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#grid {
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    justify-content: center ;
+    
+}
+
+section {
+    display: grid;
+    place-content: center;
+    height: 70vh;
+}
+
+#reset-btn {
+    display: none;
+    padding: 20px 45px;
+    margin-inline: auto;
+    margin-top: 20px;
+    background-color: transparent;
+    border: 2px solid #fff;
+    color: white;
+    font-size: 20px;
+    font-family: 'Ruslan Display', cursive;
+}
+
+.score {
+    margin-bottom: 20px;
+}
